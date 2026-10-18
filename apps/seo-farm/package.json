@@ -1,0 +1,19 @@
+{
+  "name": "mch-seo-farm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "gen-oss": "python3 ../../scripts/generate_content.py --type oss --limit 10",
+    "gen-sector": "python3 ../../scripts/generate_content.py --type sector --limit 5",
+    "gen-compare": "python3 ../../scripts/generate_content.py --type comparison --limit 5",
+    "gen-all": "python3 ../../scripts/generate_content.py --type all --limit 5",
+    "build-data": "python3 ../../scripts/build_dataset.py --type all"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

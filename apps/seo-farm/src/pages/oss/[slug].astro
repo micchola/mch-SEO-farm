@@ -1,0 +1,35 @@
+---
+// Pagina: /oss/[slug] — Alternative OSS
+import Base from '../../layouts/base.astro';
+import fs from 'fs';
+import path from 'path';
+
+export function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'content/oss');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(f => f.endsWith('.md')).map(f => ({
+    params: { slug: f.replace('.md', '') },
+  }));
+}
+
+const { slug } = Astro.params;
+const md = fs.readFileSync(path.join(process.cwd(), `content/oss/${slug}.md`), 'utf-8');
+const title = md.split('\n').find(l => l.startsWith('# '))?.replace('# ', '') || slug;
+const body = md.replace(/^# .*\n/, '').trim();
+---
+<Base title={title} description={`Alternative open source a ${slug}: confronto, licenze, pros e contro.`} canonical={`https://mch-seo-farm.vercel.app/oss/${slug}`}>
+  <article class="markdown-body">
+    <h1>{title}</h1>
+    {body}
+  </article>
+  <style>
+    .markdown-body h1 { font-size: 2rem; margin: 1rem 0; }
+    .markdown-body h2 { font-size: 1.5rem; margin: 1.5rem 0 0.75rem; }
+    .markdown-body h3 { font-size: 1.2rem; margin: 1rem 0 0.5rem; }
+    .markdown-body p { margin: 0.75rem 0; }
+    .markdown-body ul, .markdown-body ol { margin: 0.5rem 0 0.5rem 1.5rem; }
+    .markdown-body table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    .markdown-body th, .markdown-body td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+    .markdown-body th { background: #f5f5f5; }
+  </style>
+</Base>

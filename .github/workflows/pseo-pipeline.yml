@@ -1,0 +1,72 @@
+name: pSEO Content Pipeline
+
+on:
+  schedule:
+    # Every night at 2am (CET)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      type:
+        description: 'Content type to generate'
+        type: choice
+        options:
+          - all
+          - oss
+          - sector
+          - comparison
+        default: all
+
+jobs:
+  generate-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Build/Refresh dataset
+        run: |
+          python3 scripts/build_dataset.py --type oss
+
+      - name: Generate content (OSS alternatives)
+        if: github.event.inputs.type == 'all' || github.event.inputs.type == 'oss'
+        run: |
+          python3 scripts/generate_content.py --type oss --limit 10
+        env:
+          OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://127.0.0.1:11434' }}
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen3:8b-q4_K_M' }}
+
+      - name: Generate content (Sector software)
+        if: github.event.inputs.type == 'all' || github.event.inputs.type == 'sector'
+        run: |
+          python3 scripts/generate_content.py --type sector --limit 5
+        env:
+          OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://127.0.0.1:11434' }}
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen3:8b-q4_K_M' }}
+
+      - name: Generate content (Comparisons)
+        if: github.event.inputs.type == 'all' || github.event.inputs.type == 'comparison'
+        run: |
+          python3 scripts/generate_content.py --type comparison --limit 5
+        env:
+          OLLAMA_URL: ${{ secrets.OLLAMA_URL || 'http://127.0.0.1:11434' }}
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen3:8b-q4_K_M' }}
+
+      - name: Commit new content
+        run: |
+          git config user.name "mch-pseo-bot"
+          git config user.email "bot@mch.local"
+          git add content/ packages/data/data.db
+          git commit -m "pSEO: content refresh $(date +'%Y-%m-%d %H:%M UTC')" || echo "No changes"
+          git push
+
+      - name: Trigger Vercel deploy
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"project\": \"${{ vars.VERCEL_PROJECT_ID }}\", \"files\": [{\"type\": \"raw\", \"data\": \"${{ vars.CONTENT_MARKER }}\"}]}" \
+            "https://api.vercel.com/v13/deployments"

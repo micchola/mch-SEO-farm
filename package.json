@@ -1,0 +1,19 @@
+{
+  "name": "mch-seo-farm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCH pSEO monorepo — 3 nicchie, Astro SSG, Ollama locale",
+  "scripts": {
+    "build-data": "python3 scripts/build_dataset.py --type all",
+    "gen-oss": "python3 scripts/generate_content.py --type oss --limit 10",
+    "gen-sector": "python3 scripts/generate_content.py --type sector --limit 5",
+    "gen-compare": "python3 scripts/generate_content.py --type comparison --limit 5",
+    "gen-all": "python3 scripts/generate_content.py --type all --limit 5",
+    "dev:oss": "cd apps/oss-alternatives && npm run dev",
+    "dev:sector": "cd apps/sector-software && npm run dev",
+    "dev:compare": "cd apps/tool-comparisons && npm run dev",
+    "build:oss": "cd apps/oss-alternatives && npm run build",
+    "build:sector": "cd apps/sector-software && npm run build",
+    "build:compare": "cd apps/tool-comparisons && npm run build"
+  }
+}

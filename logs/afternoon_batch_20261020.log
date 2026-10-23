@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/impact/mch/seo-farm/scripts/make_new_sector_batch.py", line 17, in <module>
+    os.makedirs(out_dir, exist=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: makedirs() got an unexpected keyword argument 'exist'
+Settore batch: 5 nuovi da generare (skip 3 esistenti)
+  → pos-ristoranti
+    OK 153s
+  → pos-palestre
+    OK 161s
+  → pos-studi-medici
+    OK 141s
+  → gestionale-ristoranti
+    OK 141s
+  → gestionale-palestre
+    OK 141s
+  copied → apps/seo-farm/content/settore/pos-ristoranti.md
+  copied → apps/seo-farm/content/settore/pos-palestre.md
+  copied → apps/seo-farm/content/settore/pos-studi-medici.md
+  copied → apps/seo-farm/content/settore/gestionale-ristoranti.md
+  copied → apps/seo-farm/content/settore/gestionale-palestre.md
+DONE: 5 new sector articles: pos-ristoranti, pos-palestre, pos-studi-medici, gestionale-ristoranti, gestionale-palestre

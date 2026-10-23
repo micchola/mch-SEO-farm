@@ -1,0 +1,25 @@
+Settore batch: 5 nuovi da generare (skip 8 esistenti)
+  → gestionale-studi-medici
+    OK 145s
+  → email-marketing-ristoranti
+    OK 142s
+  → email-marketing-palestre
+    OK 139s
+  → email-marketing-studi-medici
+    OK 138s
+  → booking-ristoranti
+    OK 136s
+  copied → apps/seo-farm/content/settore/gestionale-studi-medici.md
+  copied → apps/seo-farm/content/settore/email-marketing-ristoranti.md
+  copied → apps/seo-farm/content/settore/email-marketing-palestre.md
+  copied → apps/seo-farm/content/settore/email-marketing-studi-medici.md
+  copied → apps/seo-farm/content/settore/booking-ristoranti.md
+DONE: 5 new sector articles: gestionale-studi-medici, email-marketing-ristoranti, email-marketing-palestre, email-marketing-studi-medici, booking-ristoranti
+
+=== PSEO afternoon 2026-10-22 18:20 ===
+Generati 5 nuovi articoli (qwen2.5:3b): gestionale-studi-medici, email-marketing-ristoranti, email-marketing-palestre, email-marketing-studi-medici, booking-ristoranti (441-519 parole)
+Astro build OK: 25 pagine (root + 11 oss + 13 settore) → dist/
+Sitemap aggiornato a 25 URL (lastmod 2026-10-22)
+Commit locale OK. PUSH FALLITO: token GitHub ghp_HU... 401 'Invalid username or token' (scaduto dal 19/10)
+Vercel CLI fallback: nessun token in macchina → deploy non possibile
+Stato: 24 articoli locali, 6 live su mch-one.vercel.app (deploy 19/10)

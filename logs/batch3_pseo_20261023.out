@@ -1,0 +1,18 @@
+Batch 3: 5 nuovi da generare (skip 18 esistenti)
+  → gestionale-agenzie-immobiliari
+    OK 140s (496 parole)
+  → crm-parrucchieri
+    OK 134s (462 parole)
+  → booking-agenzie-immobiliari
+    OK 132s (551 parole)
+  → email-marketing-parrucchieri
+    OK 133s (513 parole)
+  → gestionale-studi-commerciali
+    OK 133s (555 parole)
+  copied → apps/seo-farm/content/settore/gestionale-agenzie-immobiliari.md
+  copied → apps/seo-farm/content/settore/crm-parrucchieri.md
+  copied → apps/seo-farm/content/settore/booking-agenzie-immobiliari.md
+  copied → apps/seo-farm/content/settore/email-marketing-parrucchieri.md
+  copied → apps/seo-farm/content/settore/gestionale-studi-commerciali.md
+DONE: 5 nuovi: gestionale-agenzie-immobiliari, crm-parrucchieri, booking-agenzie-immobiliari, email-marketing-parrucchieri, gestionale-studi-commerciali
+BATCH3_DONE rc=0

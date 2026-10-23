@@ -2,102 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mch-one.vercel.app</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/airtable</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/figma</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/hubspot</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/jira</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/mailchimp</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/notion</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/salesforce</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/shopify</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/slack</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/trello</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/zendesk</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/booking-ristoranti</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-palestre</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-ristoranti</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-studi-medici</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/email-marketing-palestre</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/email-marketing-ristoranti</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/email-marketing-studi-medici</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-palestre</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-ristoranti</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/gestionale-studi-medici</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-palestre</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-ristoranti</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-studi-medici</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

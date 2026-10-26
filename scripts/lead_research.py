@@ -17,9 +17,15 @@ LOG_DIR = BASE_DIR / "logs"
 DB_PATH = OUTPUT_DIR / "leads.db"
 OLLM_URL = "http://127.0.0.1:11434/api/generate"
 
-def ollama(prompt: str, model: str = "qwen2.5:3b", system: str = "", timeout: int = 120) -> str:
+def ollama(prompt: str, model: str = None, system: str = "", timeout: int = 300) -> str:
     import urllib.request
-    payload = json.dumps({"model": model, "prompt": prompt, "system": system, "stream": False})
+    if model is None:
+        model = os.environ.get("OLLAMA_MODEL", "qwen2.5:3b")
+    # cap num_predict: evita generazioni "fuori controllo" su CPU (lead che scappano 10+ min)
+    num_predict = int(os.environ.get("OLLAMA_NUM_PREDICT", "512"))
+    temperature = float(os.environ.get("OLLAMA_TEMPERATURE", "0.3"))
+    payload = json.dumps({"model": model, "prompt": prompt, "system": system, "stream": False,
+                          "options": {"num_predict": num_predict, "temperature": temperature}})
     req = urllib.request.Request(OLLM_URL, data=payload.encode(),
                                  headers={"Content-Type": "application/json"}, method="POST")
     try:

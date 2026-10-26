@@ -123,25 +123,30 @@ def firecrawl_scrape(url):
         return ""
 
 def scrape_paginegialle(category, city="brescia"):
-    """Scrape PagineGialle for a category, extract phone numbers + names."""
+    """Scrape PagineGialle per categoria, estrae nome+telefono a blocchi ([**Nome**]).
+    Block-based (fix 2026-10-25): la regex line-based non capturava i nomi
+    (i listing sono nel formato markdown [**Nome**\\] e non righe 'CAPS' isolate)."""
     pg_url = f"https://www.paginegialle.it/lombardia/{city}/{category}.html"
     md = firecrawl_scrape(pg_url)
     if not md:
         return []
-    lines = md.split('\n')
     results = []
-    for i, line in enumerate(lines):
-        stripped = line.strip()
-        m = re.search(r'030\s+\d{6,7}\s*$', stripped)
-        if not m or 'http' in stripped:
+    seen = set()
+    for block in re.split(r'(?=\[\*\*)', md):
+        m = re.match(r'\[\*\*(.+?)\*\*', block)
+        if not m:
             continue
-        phone = m.group()
-        name = None
-        for j in range(max(0, i-8), i):
-            l = lines[j].strip().strip('*').strip()
-            if re.match(r'^[A-ZÀ-Ú][^ ]{3,40}$', l) and l not in ('Telefono','Chiudi'):
-                name = l
-                break
+        name = m.group(1).strip()
+        if len(name) < 3:
+            continue
+        pm = re.search(r'\b030\s?\d{6,7}\b', block) or re.search(r'\b3\d{9}\b', block)
+        if not pm:
+            continue
+        phone = pm.group(0)
+        key = (name, phone)
+        if key in seen:
+            continue
+        seen.add(key)
         results.append({
             "phone": phone,
             "name": name,

@@ -1,0 +1,15 @@
+🚀 Deep pSEO batch8 — qwen3:8b-q4_K_M — 5 nuovi target (di 8 candidati)
+   → booking-veterinari
+   → crm-officine-auto
+   → fidelizzazione-veterinari
+   → email-marketing-officine-auto
+   → crm-pasticcerie
+  [1/5] booking-veterinari ✅ (728s, 956 parole, 7,221 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [2/5] crm-officine-auto ✅ (932s, 1211 parole, 8,540 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [3/5] fidelizzazione-veterinari ✅ (707s, 922 parole, 6,803 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [4/5] email-marketing-officine-auto ✅ (783s, 1023 parole, 7,741 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [5/5] crm-pasticcerie ✅ (940s, 1170 parole, 8,593 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+
+📊 Deep pSEO batch8: 5 OK, 0 QC-fail, 0 overwrote (target 5)
+   → /home/impact/mch/seo-farm/content/settore (+ sync su /home/impact/mch/seo-farm/apps/seo-farm/content/settore)
+   → QC report: /home/impact/mch/seo-farm/logs/pseo_batch8_qc.json

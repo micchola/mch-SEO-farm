@@ -1,0 +1,64 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-05 19:13",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "booking-veterinari",
+      "status": "ok",
+      "seconds": 727.6,
+      "words": 956,
+      "chars": 7221,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "crm-officine-auto",
+      "status": "ok",
+      "seconds": 931.5,
+      "words": 1211,
+      "chars": 8540,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-veterinari",
+      "status": "ok",
+      "seconds": 706.8,
+      "words": 922,
+      "chars": 6803,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "email-marketing-officine-auto",
+      "status": "ok",
+      "seconds": 783.2,
+      "words": 1023,
+      "chars": 7741,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "crm-pasticcerie",
+      "status": "ok",
+      "seconds": 940.3,
+      "words": 1170,
+      "chars": 8593,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    }
+  ]
+}

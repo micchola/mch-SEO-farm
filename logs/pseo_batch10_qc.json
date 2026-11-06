@@ -1,0 +1,65 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-06 19:17",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "email-marketing-pasticcerie",
+      "status": "ok",
+      "seconds": 792.5,
+      "words": 1064,
+      "chars": 7963,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK",
+        "placeholder [DISCLAIMER"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-studi-medici",
+      "status": "ok",
+      "seconds": 772.6,
+      "words": 1049,
+      "chars": 7312,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "crm-studi-legali",
+      "status": "ok",
+      "seconds": 846.5,
+      "words": 1114,
+      "chars": 7941,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "email-marketing-bar",
+      "status": "ok",
+      "seconds": 703.3,
+      "words": 964,
+      "chars": 6871,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "booking-studi-commerciali",
+      "status": "ok",
+      "seconds": 746.1,
+      "words": 998,
+      "chars": 7475,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    }
+  ]
+}

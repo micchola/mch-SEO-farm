@@ -1,0 +1,15 @@
+🚀 Deep pSEO batch10 — qwen3:8b-q4_K_M — 5 nuovi target (di 10 candidati)
+   → email-marketing-pasticcerie
+   → fidelizzazione-studi-medici
+   → crm-studi-legali
+   → email-marketing-bar
+   → booking-studi-commerciali
+  [1/5] email-marketing-pasticcerie ✅ (793s, 1064 parole, 7,963 chars) ℹ️ QC-warn: ['placeholder [LINK', 'placeholder [DISCLAIMER'] — sync su apps/
+  [2/5] fidelizzazione-studi-medici ✅ (773s, 1049 parole, 7,312 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [3/5] crm-studi-legali ✅ (846s, 1114 parole, 7,941 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [4/5] email-marketing-bar ✅ (703s, 964 parole, 6,871 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [5/5] booking-studi-commerciali ✅ (746s, 998 parole, 7,475 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+
+📊 Deep pSEO batch10: 5 OK, 0 QC-fail, 0 overwrote (target 5)
+   → /home/impact/mch/seo-farm/content/settore (+ sync su /home/impact/mch/seo-farm/apps/seo-farm/content/settore)
+   → QC report: /home/impact/mch/seo-farm/logs/pseo_batch10_qc.json

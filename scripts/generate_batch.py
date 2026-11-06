@@ -105,6 +105,8 @@ Regole:
 - Prezzi in EUR, realistici
 - CTA affiliate su 2-3 tool (HubSpot, ClickUp, Shopify)
 - SEO: H1 con "miglior software {category} per {sector}"
+- COMPILA TUTTI i placeholder della struttura: [Tool]→nome reale del software, [LINK AFFILIATE SE PRESENTE]→URL reale (es. https://hubspot.com), [tool entry] e [tool pro]→nomi reali, [DISCLAIMER AFFILIATE]→"Contiene link affiliate.". NON lasciare mai parentesi quadre [...] vuote o non compilate nel testo finale.
+- Usa sempre la parola "software" almeno 2 volte nell'articolo.
 """
 
 PROMPT_COMPARISON_V2 = """Sei un redattore SEO italiano. Scrivi un articolo in italiano, 600-900 parole,

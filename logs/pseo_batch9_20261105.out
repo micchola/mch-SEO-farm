@@ -1,0 +1,15 @@
+🚀 Deep pSEO batch9 — qwen3:8b-q4_K_M — 5 nuovi target (di 9 candidati)
+   → email-marketing-veterinari
+   → fidelizzazione-officine-auto
+   → gestionale-idraulici
+   → booking-idraulici
+   → software-estetisti
+  [1/5] email-marketing-veterinari ✅ (665s, 889 parole, 6,864 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [2/5] fidelizzazione-officine-auto ✅ (694s, 913 parole, 6,915 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [3/5] gestionale-idraulici ✅ (934s, 1174 parole, 7,926 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [4/5] booking-idraulici ✅ (817s, 1071 parole, 7,792 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [5/5] software-estetisti ✅ (691s, 912 parole, 6,750 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+
+📊 Deep pSEO batch9: 5 OK, 0 QC-fail, 0 overwrote (target 5)
+   → /home/impact/mch/seo-farm/content/settore (+ sync su /home/impact/mch/seo-farm/apps/seo-farm/content/settore)
+   → QC report: /home/impact/mch/seo-farm/logs/pseo_batch9_qc.json

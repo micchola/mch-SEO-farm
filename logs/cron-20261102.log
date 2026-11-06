@@ -1,0 +1,193 @@
+=== MCH pSEO cron — lun 2 nov 2026, 02:00:30, CET ===
+🔧 Build dataset pSEO MCH...
+  → 20 tool seedati
+
+📡 Fetch OSS alternatives da GitHub...
+  → Notion: 5 alternative trovate
+  → Slack: 5 alternative trovate
+  → Figma: 5 alternative trovate
+  → Salesforce: 5 alternative trovate
+  → HubSpot: 5 alternative trovate
+  → Zendesk: 5 alternative trovate
+  → Shopify: 5 alternative trovate
+  → Mailchimp: 5 alternative trovate
+  → Jira: 5 alternative trovate
+  → Trello: 5 alternative trovate
+  ⚠ Airtable: HTTP Error 403: rate limit exceeded
+  ⚠ GitHub: HTTP Error 403: rate limit exceeded
+  ⚠ Discord: HTTP Error 403: rate limit exceeded
+  ⚠ Zoom: HTTP Error 403: rate limit exceeded
+  ⚠ Canva: HTTP Error 403: rate limit exceeded
+  ⚠ Asana: HTTP Error 403: rate limit exceeded
+  ⚠ Monday.com: HTTP Error 403: rate limit exceeded
+  ⚠ ClickUp: HTTP Error 403: rate limit exceeded
+  ⚠ Webflow: HTTP Error 403: rate limit exceeded
+  ⚠ WordPress: HTTP Error 403: rate limit exceeded
+
+✅ Dataset ready → /home/impact/mch/seo-farm/packages/data/data.db
+Generando contenuti...
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+📦 Nicchia OSS...
+Traceback (most recent call last):
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 244, in <module>
+    generate_oss(conn, os.path.join(base_out, 'oss-alternatives'), args.limit)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 168, in generate_oss
+    prompt = PROMPT_OSS.format(
+        tool_name=name,
+        repo_1=repo, desc_1=desc, license_1=license
+    )
+KeyError: 'repo_2'
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+🏢 Nicchia Settori...
+  → Generando: crm-ristoranti
+Traceback (most recent call last):
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 248, in <module>
+    generate_sectors(conn, os.path.join(base_out, 'sector-software'), args.limit)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 196, in generate_sectors
+    content = ollama_generate(prompt)
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 149, in ollama_generate
+    with urllib.request.urlopen(req, timeout=600) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 1349, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/urllib/request.py", line 1324, in do_open
+    r = h.getresponse()
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/http/client.py", line 1478, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/http/client.py", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/impact/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+⚔️  Nicchia Confronti...
+
+✅ Generazione completata
+npm notice run mch-seo-farm@1.0.0 build
+npm notice run astro build
+02:11:31 [content] Syncing content
+02:11:31 [content] Synced content
+02:11:31 [types] Generated 172ms
+02:11:31 [build] output: "static"
+02:11:31 [build] mode: "static"
+02:11:31 [build] directory: /home/impact/mch/seo-farm/apps/seo-farm/dist/
+02:11:31 [build] Collecting build info...
+02:11:31 [build] ✓ Completed in 229ms.
+02:11:31 [build] Building static entrypoints...
+02:11:33 [vite] ✓ built in 1.53s
+02:11:33 [build] ✓ Completed in 1.62s.
+
+ generating static routes 
+02:11:33 ▶ src/pages/confronto/[slug].astro
+02:11:33 ▶ src/pages/index.astro
+02:11:33   └─ /index.html (+29ms) 
+02:11:33 ▶ src/pages/oss/[slug].astro
+02:11:33   ├─ /oss/airtable/index.html (+24ms) 
+02:11:33   ├─ /oss/figma/index.html (+10ms) 
+02:11:33   ├─ /oss/hubspot/index.html (+9ms) 
+02:11:33   ├─ /oss/jira/index.html (+9ms) 
+02:11:33   ├─ /oss/mailchimp/index.html (+8ms) 
+02:11:33   ├─ /oss/notion/index.html (+10ms) 
+02:11:33   ├─ /oss/salesforce/index.html (+9ms) 
+02:11:33   ├─ /oss/shopify/index.html (+9ms) 
+02:11:33   ├─ /oss/slack/index.html (+10ms) 
+02:11:33   ├─ /oss/trello/index.html (+9ms) 
+02:11:33   └─ /oss/zendesk/index.html (+9ms) 
+02:11:33 ▶ src/pages/settore/[slug].astro
+02:11:33   ├─ /settore/booking-agenzie-immobiliari/index.html (+19ms) 
+02:11:33   ├─ /settore/booking-bar/index.html (+10ms) 
+02:11:33   ├─ /settore/booking-estetisti/index.html (+10ms) 
+02:11:33   ├─ /settore/booking-palestre/index.html (+8ms) 
+02:11:33   ├─ /settore/booking-parrucchieri/index.html (+7ms) 
+02:11:33   ├─ /settore/booking-pasticcerie/index.html (+10ms) 
+02:11:33   ├─ /settore/booking-pizzerie/index.html (+7ms) 
+02:11:33   ├─ /settore/booking-ristoranti/index.html (+8ms) 
+02:11:33   ├─ /settore/booking-studi-dentistici/index.html (+9ms) 
+02:11:33   ├─ /settore/booking-studi-medici/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-agenzie-immobiliari/index.html (+8ms) 
+02:11:33   ├─ /settore/crm-bar/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-ecommerce/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-estetisti/index.html (+10ms) 
+02:11:33   ├─ /settore/crm-farmacie/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-palestre/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-parrucchieri/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-pmi/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-ristoranti/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-studi-commerciali/index.html (+9ms) 
+02:11:33   ├─ /settore/crm-studi-medici/index.html (+9ms) 
+02:11:33   ├─ /settore/ecommerce-pmi/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-agenzie-immobiliari/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-estetisti/index.html (+10ms) 
+02:11:33   ├─ /settore/email-marketing-palestre/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-parrucchieri/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-pizzerie/index.html (+8ms) 
+02:11:33   ├─ /settore/email-marketing-ristoranti/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-studi-commerciali/index.html (+9ms) 
+02:11:33   ├─ /settore/email-marketing-studi-medici/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-agenzie-immobiliari/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-estetisti/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-farmacie/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-palestre/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-parrucchieri/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-pmi/index.html (+9ms) 
+02:11:33   ├─ /settore/fidelizzazione-ristoranti/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-agenzie-immobiliari/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-artigiani/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-bar/index.html (+10ms) 
+02:11:33   ├─ /settore/gestionale-corsi-e-scuole/index.html (+10ms) 
+02:11:33   ├─ /settore/gestionale-estetisti/index.html (+6ms) 
+02:11:33   ├─ /settore/gestionale-fabbri/index.html (+5ms) 
+02:11:33   ├─ /settore/gestionale-farmacie/index.html (+11ms) 
+02:11:33   ├─ /settore/gestionale-officine-auto/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-palestre/index.html (+8ms) 
+02:11:33   ├─ /settore/gestionale-parrucchieri/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-pasticcerie/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-pizzerie/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-ristoranti/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-studi-commerciali/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-studi-dentistici/index.html (+9ms) 
+02:11:33   ├─ /settore/gestionale-studi-legali/index.html (+10ms) 
+02:11:33   ├─ /settore/gestionale-studi-medici/index.html (+9ms) 
+02:11:33   ├─ /settore/marketing-automation-pmi/index.html (+10ms) 
+02:11:33   ├─ /settore/pos-palestre/index.html (+9ms) 
+02:11:33   ├─ /settore/pos-ristoranti/index.html (+8ms) 
+02:11:33   ├─ /settore/pos-studi-medici/index.html (+9ms) 
+02:11:33   ├─ /settore/software-bnb/index.html (+9ms) 
+02:11:33   ├─ /settore/software-cassa-negozi/index.html (+9ms) 
+02:11:33   ├─ /settore/software-concessionari-auto/index.html (+7ms) 
+02:11:33   ├─ /settore/software-idraulici/index.html (+9ms) 
+02:11:33   └─ /settore/software-preventivi-pmi/index.html (+9ms) 
+02:11:33 ✓ Completed in 739ms.
+
+02:11:33 [build] 75 page(s) built in 2.71s
+02:11:33 [build] Complete!
+[main 18c6e5f] pSEO: content refresh 2026-11-02 02:11
+ 74 files changed, 74 insertions(+), 74 deletions(-)
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Autenticazione non riuscita per 'https://github.com/micchola/mch-SEO-farm.git/'
+=== Cron completato — lun 2 nov 2026, 02:11:35, CET ===

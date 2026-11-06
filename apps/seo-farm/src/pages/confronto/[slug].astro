@@ -1,6 +1,7 @@
 ---
 // Pagina: /confronto/[slug] — Comparazioni tool
 import Base from '../../layouts/base.astro';
+import { buildGeoJsonLd } from '../../lib/geo';
 import fs from 'fs';
 import path from 'path';
 
@@ -16,8 +17,10 @@ const { slug } = Astro.params;
 const md = fs.readFileSync(path.join(process.cwd(), `content/confronto/${slug}.md`), 'utf-8');
 const title = md.split('\n').find(l => l.startsWith('# '))?.replace('# ', '') || slug;
 const body = md.replace(/^# .*\n/, '').trim();
+const domain = 'https://mch-seo-farm.vercel.app';
+const jsonld = buildGeoJsonLd({ type: 'confronto', slug, md, domain });
 ---
-<Base title={title} description={`Confronto tra ${slug}: quale scegliere nel 2026? Analisi dettagliata.`} canonical={`https://mch-seo-farm.vercel.app/confronto/${slug}`}>
+<Base title={title} description={`Confronto tra ${slug}: quale scegliere nel 2026? Analisi dettagliata.`} canonical={`${domain}/confronto/${slug}`} jsonld={jsonld}>
   <article>
     <h1>{title}</h1>
     {body}

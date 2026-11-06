@@ -1,0 +1,64 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-05 23:24",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "email-marketing-veterinari",
+      "status": "ok",
+      "seconds": 664.6,
+      "words": 889,
+      "chars": 6864,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-officine-auto",
+      "status": "ok",
+      "seconds": 694.3,
+      "words": 913,
+      "chars": 6915,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "gestionale-idraulici",
+      "status": "ok",
+      "seconds": 933.8,
+      "words": 1174,
+      "chars": 7926,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "booking-idraulici",
+      "status": "ok",
+      "seconds": 817.2,
+      "words": 1071,
+      "chars": 7792,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "software-estetisti",
+      "status": "ok",
+      "seconds": 691.4,
+      "words": 912,
+      "chars": 6750,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    }
+  ]
+}

@@ -35,6 +35,12 @@ TOPICS = [
     ("crm-pmi", "software crm per pmi italiane", "crm", "pmi"),
     ("software-preventivi-pmi", "programmi per preventivi per pmi", "gestionale", "pmi"),
     ("gestionale-estetisti", "software gestionale estetisti e saloni di bellezza", "gestionale", "estetisti"),
+    # Batch deep-research 2026-10-26: keyword a volume, gap vs contenuti esistenti (officine, negozi retail, legali, concessionari, corsi/scuole)
+    ("gestionale-officine-auto", "software gestionale per officine meccaniche e gommisti", "gestionale", "officine meccaniche e gommisti"),
+    ("software-cassa-negozi", "software gestione cassa e magazzino per negozi al dettaglio", "gestionale", "negozi al dettaglio"),
+    ("gestionale-studi-legali", "software gestionale per studi legali e avvocati", "gestionale", "studi legali"),
+    ("software-concessionari-auto", "software gestionale per concessionari auto", "crm", "concessionari auto e motorizzazioni"),
+    ("gestionale-corsi-e-scuole", "software gestionale per corsi, scuole di guida e accademie", "gestionale", "scuole di guida, corsi di lingua e accademie"),
 ]
 
 PROMPT = """Sei un redattore SEO italiano. Scrivi UN articolo COMPLETO in italiano di minimo 550 parole,

@@ -1,6 +1,7 @@
 ---
 // Pagina: /oss/[slug] — Alternative OSS
 import Base from '../../layouts/base.astro';
+import { buildGeoJsonLd } from '../../lib/geo';
 import fs from 'fs';
 import path from 'path';
 
@@ -16,8 +17,10 @@ const { slug } = Astro.params;
 const md = fs.readFileSync(path.join(process.cwd(), `content/oss/${slug}.md`), 'utf-8');
 const title = md.split('\n').find(l => l.startsWith('# '))?.replace('# ', '') || slug;
 const body = md.replace(/^# .*\n/, '').trim();
+const domain = 'https://mch-seo-farm.vercel.app';
+const jsonld = buildGeoJsonLd({ type: 'oss', slug, md, domain });
 ---
-<Base title={title} description={`Alternative open source a ${slug}: confronto, licenze, pros e contro.`} canonical={`https://mch-seo-farm.vercel.app/oss/${slug}`}>
+<Base title={title} description={`Alternative open source a ${slug}: confronto, licenze, pros e contro.`} canonical={`${domain}/oss/${slug}`} jsonld={jsonld}>
   <article class="markdown-body">
     <h1>{title}</h1>
     {body}

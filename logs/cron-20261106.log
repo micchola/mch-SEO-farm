@@ -1,0 +1,207 @@
+=== MCH pSEO cron — ven 6 nov 2026, 02:00:30, CET ===
+🔧 Build dataset pSEO MCH...
+  → 20 tool seedati
+
+📡 Fetch OSS alternatives da GitHub...
+  → Notion: 5 alternative trovate
+  → Slack: 5 alternative trovate
+  → Figma: 5 alternative trovate
+  → Salesforce: 5 alternative trovate
+  → HubSpot: 5 alternative trovate
+  → Zendesk: 5 alternative trovate
+  → Shopify: 5 alternative trovate
+  → Mailchimp: 5 alternative trovate
+  → Jira: 5 alternative trovate
+  → Trello: 5 alternative trovate
+  ⚠ Airtable: HTTP Error 403: rate limit exceeded
+  ⚠ GitHub: HTTP Error 403: rate limit exceeded
+  ⚠ Discord: HTTP Error 403: rate limit exceeded
+  ⚠ Zoom: HTTP Error 403: rate limit exceeded
+  ⚠ Canva: HTTP Error 403: rate limit exceeded
+  ⚠ Asana: HTTP Error 403: rate limit exceeded
+  ⚠ Monday.com: HTTP Error 403: rate limit exceeded
+  ⚠ ClickUp: HTTP Error 403: rate limit exceeded
+  ⚠ Webflow: HTTP Error 403: rate limit exceeded
+  ⚠ WordPress: HTTP Error 403: rate limit exceeded
+
+✅ Dataset ready → /home/impact/mch/seo-farm/packages/data/data.db
+Generando contenuti...
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+📦 Nicchia OSS...
+Traceback (most recent call last):
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 244, in <module>
+    generate_oss(conn, os.path.join(base_out, 'oss-alternatives'), args.limit)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/impact/mch/seo-farm/scripts/generate_content.py", line 168, in generate_oss
+    prompt = PROMPT_OSS.format(
+        tool_name=name,
+        repo_1=repo, desc_1=desc, license_1=license
+    )
+KeyError: 'repo_2'
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+🏢 Nicchia Settori...
+  → Generando: crm-ristoranti
+  ✅ /home/impact/mch/seo-farm/content/sector-software/crm-ristoranti.md
+  → Generando: pos-ristoranti
+  ✅ /home/impact/mch/seo-farm/content/sector-software/pos-ristoranti.md
+  → Generando: erp-ristoranti
+  ✅ /home/impact/mch/seo-farm/content/sector-software/erp-ristoranti.md
+  → Generando: email-marketing-ristoranti
+  ✅ /home/impact/mch/seo-farm/content/sector-software/email-marketing-ristoranti.md
+  → Generando: booking-ristoranti
+  ✅ /home/impact/mch/seo-farm/content/sector-software/booking-ristoranti.md
+
+✅ Generazione completata
+🖊️  Generazione contenuti — modello: qwen2.5:3b
+   Ollama: http://127.0.0.1:11434
+
+⚔️  Nicchia Confronti...
+
+✅ Generazione completata
+npm notice run mch-seo-farm@1.0.0 build
+npm notice run astro build
+02:18:36 [content] Syncing content
+02:18:36 [content] Synced content
+02:18:36 [types] Generated 35ms
+02:18:36 [build] output: "static"
+02:18:36 [build] mode: "static"
+02:18:36 [build] directory: /home/impact/mch/seo-farm/apps/seo-farm/dist/
+02:18:36 [build] Collecting build info...
+02:18:36 [build] ✓ Completed in 62ms.
+02:18:36 [build] Building static entrypoints...
+02:18:36 [vite] ✓ built in 678ms
+02:18:36 [build] ✓ Completed in 715ms.
+
+ generating static routes 
+02:18:37 ▶ src/pages/confronto/[slug].astro
+02:18:37 ▶ src/pages/index.astro
+02:18:37   └─ /index.html (+7ms) 
+02:18:37 ▶ src/pages/oss/[slug].astro
+02:18:37   ├─ /oss/airtable/index.html (+3ms) 
+02:18:37   ├─ /oss/figma/index.html (+2ms) 
+02:18:37   ├─ /oss/hubspot/index.html (+1ms) 
+02:18:37   ├─ /oss/jira/index.html (+1ms) 
+02:18:37   ├─ /oss/mailchimp/index.html (+1ms) 
+02:18:37   ├─ /oss/notion/index.html (+1ms) 
+02:18:37   ├─ /oss/salesforce/index.html (+1ms) 
+02:18:37   ├─ /oss/shopify/index.html (+2ms) 
+02:18:37   ├─ /oss/slack/index.html (+1ms) 
+02:18:37   ├─ /oss/trello/index.html (+1ms) 
+02:18:37   └─ /oss/zendesk/index.html (+1ms) 
+02:18:37 ▶ src/pages/settore/[slug].astro
+02:18:37   ├─ /settore/booking-agenzie-immobiliari/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-bar/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-barbieri/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-farmacie/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-idraulici/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-parrucchieri/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-pasticcerie/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-pizzerie/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-studi-dentistici/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-studi-medici/index.html (+1ms) 
+02:18:37   ├─ /settore/booking-veterinari/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-agenzie-immobiliari/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-bar/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-concessionari-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-ecommerce/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-farmacie/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-fisioterapisti/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-officine-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-parrucchieri/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-pasticcerie/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-pmi/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-studi-commerciali/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-studi-medici/index.html (+1ms) 
+02:18:37   ├─ /settore/crm-veterinari/index.html (+1ms) 
+02:18:37   ├─ /settore/ecommerce-pmi/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-agenzie-immobiliari/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-farmacie/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-officine-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-parrucchieri/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-pizzerie/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-studi-commerciali/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-studi-medici/index.html (+1ms) 
+02:18:37   ├─ /settore/email-marketing-veterinari/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-agenzie-immobiliari/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-bar/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-farmacie/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-officine-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-parrucchieri/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-pasticcerie/index.html (+5ms) 
+02:18:37   ├─ /settore/fidelizzazione-pmi/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/fidelizzazione-veterinari/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-agenzie-immobiliari/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-artigiani/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-bar/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-corsi-e-scuole/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-fabbri/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-farmacie/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-fisioterapisti/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-idraulici/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-officine-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-parrucchieri/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-pasticcerie/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-pizzerie/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-studi-commerciali/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-studi-dentistici/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-studi-legali/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-studi-medici/index.html (+1ms) 
+02:18:37   ├─ /settore/gestionale-veterinari/index.html (+1ms) 
+02:18:37   ├─ /settore/marketing-automation-pmi/index.html (+1ms) 
+02:18:37   ├─ /settore/pos-palestre/index.html (+1ms) 
+02:18:37   ├─ /settore/pos-ristoranti/index.html (+1ms) 
+02:18:37   ├─ /settore/pos-studi-medici/index.html (+1ms) 
+02:18:37   ├─ /settore/software-bnb/index.html (+1ms) 
+02:18:37   ├─ /settore/software-cassa-negozi/index.html (+1ms) 
+02:18:37   ├─ /settore/software-concessionari-auto/index.html (+1ms) 
+02:18:37   ├─ /settore/software-estetisti/index.html (+1ms) 
+02:18:37   ├─ /settore/software-idraulici/index.html (+1ms) 
+02:18:37   └─ /settore/software-preventivi-pmi/index.html (+1ms) 
+02:18:37 ✓ Completed in 116ms.
+
+02:18:37 [build] 95 page(s) built in 926ms
+02:18:37 [build] Complete!
+[main 5f152d6] pSEO: content refresh 2026-11-06 02:18
+ 109 files changed, 3035 insertions(+), 397 deletions(-)
+ create mode 100644 apps/seo-farm/content/settore/booking-idraulici.md
+ create mode 100644 apps/seo-farm/content/settore/email-marketing-veterinari.md
+ create mode 100644 apps/seo-farm/content/settore/fidelizzazione-officine-auto.md
+ create mode 100644 apps/seo-farm/content/settore/gestionale-idraulici.md
+ create mode 100644 apps/seo-farm/content/settore/software-estetisti.md
+ create mode 100644 apps/seo-farm/dist/settore/booking-idraulici/index.html
+ create mode 100644 apps/seo-farm/dist/settore/booking-veterinari/index.html
+ create mode 100644 apps/seo-farm/dist/settore/crm-officine-auto/index.html
+ create mode 100644 apps/seo-farm/dist/settore/crm-pasticcerie/index.html
+ create mode 100644 apps/seo-farm/dist/settore/email-marketing-officine-auto/index.html
+ create mode 100644 apps/seo-farm/dist/settore/email-marketing-veterinari/index.html
+ create mode 100644 apps/seo-farm/dist/settore/fidelizzazione-officine-auto/index.html
+ create mode 100644 apps/seo-farm/dist/settore/fidelizzazione-veterinari/index.html
+ create mode 100644 apps/seo-farm/dist/settore/gestionale-idraulici/index.html
+ create mode 100644 apps/seo-farm/dist/settore/software-estetisti/index.html
+ create mode 100644 content/settore/booking-idraulici.md
+ create mode 100644 content/settore/email-marketing-veterinari.md
+ create mode 100644 content/settore/fidelizzazione-officine-auto.md
+ create mode 100644 content/settore/gestionale-idraulici.md
+ create mode 100644 content/settore/software-estetisti.md
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Autenticazione non riuscita per 'https://github.com/micchola/mch-SEO-farm.git/'
+=== Cron completato — ven 6 nov 2026, 02:18:38, CET ===

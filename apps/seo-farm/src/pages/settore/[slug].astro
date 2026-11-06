@@ -1,6 +1,7 @@
 ---
 // Pagina: /settore/[slug] — Software per settore
 import Base from '../../layouts/base.astro';
+import { buildGeoJsonLd } from '../../lib/geo';
 import fs from 'fs';
 import path from 'path';
 
@@ -16,8 +17,10 @@ const { slug } = Astro.params;
 const md = fs.readFileSync(path.join(process.cwd(), `content/settore/${slug}.md`), 'utf-8');
 const title = md.split('\n').find(l => l.startsWith('# '))?.replace('# ', '') || slug;
 const body = md.replace(/^# .*\n/, '').trim();
+const domain = 'https://mch-seo-farm.vercel.app';
+const jsonld = buildGeoJsonLd({ type: 'settore', slug, md, domain });
 ---
-<Base title={title} description={`I migliori software per ${slug} in Italia nel 2026. Confronto, prezzi, pros e contro.`} canonical={`https://mch-seo-farm.vercel.app/settore/${slug}`}>
+<Base title={title} description={`I migliori software per ${slug} in Italia nel 2026. Confronto, prezzi, pros e contro.`} canonical={`${domain}/settore/${slug}`} jsonld={jsonld}>
   <article>
     <h1>{title}</h1>
     {body}

@@ -1,6 +1,6 @@
 ---
 // Base layout per tutte le pagine MCH pSEO
-const { title, description = '', canonical = '' } = Astro.props;
+const { title, description = '', canonical = '', jsonld = [] } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="it">
@@ -11,6 +11,9 @@ const { title, description = '', canonical = '' } = Astro.props;
   <meta name="description" content={description}>
   {canonical && <link rel="canonical" href={canonical}>}
   <meta name="generator" content="MCH pSEO">
+  {Array.isArray(jsonld) && jsonld.map((obj: object) => (
+    <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+  ))}
   <meta property="og:title" content={title}>
   {description && <meta property="og:description" content={description}>}
   <style>

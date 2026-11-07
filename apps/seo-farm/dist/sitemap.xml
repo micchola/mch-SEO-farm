@@ -2,402 +2,442 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mch-one.vercel.app</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/airtable</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/figma</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/hubspot</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/jira</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/mailchimp</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/notion</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/salesforce</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/shopify</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/slack</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/trello</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/oss/zendesk</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-agenzie-immobiliari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-bar</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-barbieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-farmacie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/booking-fisioterapisti</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-idraulici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-parrucchieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-pasticcerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-pizzerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-studi-commerciali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-studi-dentistici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/booking-veterinari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-agenzie-immobiliari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-bar</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-concessionari-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-ecommerce</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-farmacie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-fisioterapisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-officine-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-parrucchieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-pasticcerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/crm-pizzerie</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-pmi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-studi-commerciali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-studi-legali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/crm-veterinari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/ecommerce-pmi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-agenzie-immobiliari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-bar</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/email-marketing-barbieri</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-farmacie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/email-marketing-idraulici</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-officine-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-parrucchieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-pasticcerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-pizzerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-studi-commerciali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/email-marketing-veterinari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-agenzie-immobiliari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-bar</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/fidelizzazione-barbieri</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-farmacie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-officine-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-parrucchieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-pasticcerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-pmi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/fidelizzazione-studi-dentistici</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/fidelizzazione-studi-legali</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/fidelizzazione-veterinari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-agenzie-immobiliari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-artigiani</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-bar</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-corsi-e-scuole</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-fabbri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-farmacie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-fisioterapisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-idraulici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-officine-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-parrucchieri</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-pasticcerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-pizzerie</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/gestionale-pmi</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-studi-commerciali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-studi-dentistici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-studi-legali</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/gestionale-veterinari</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/marketing-automation-pmi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/pos-bar</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-palestre</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://mch-one.vercel.app/settore/pos-parrucchieri</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-ristoranti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/pos-studi-medici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-bnb</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-cassa-negozi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-concessionari-auto</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-estetisti</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-idraulici</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://mch-one.vercel.app/settore/software-preventivi-pmi</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
 </urlset>

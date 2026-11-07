@@ -1,0 +1,65 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-07 19:09",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "pos-parrucchieri",
+      "status": "ok",
+      "seconds": 764.5,
+      "words": 967,
+      "chars": 6809,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "booking-fisioterapisti",
+      "status": "ok",
+      "seconds": 789.3,
+      "words": 1065,
+      "chars": 7566,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "email-marketing-idraulici",
+      "status": "ok",
+      "seconds": 800.6,
+      "words": 1030,
+      "chars": 7469,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-studi-legali",
+      "status": "ok",
+      "seconds": 763.4,
+      "words": 1062,
+      "chars": 7446,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "gestionale-pmi",
+      "status": "ok",
+      "seconds": 680.2,
+      "words": 885,
+      "chars": 6403,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK",
+        "placeholder [DISCLAIMER"
+      ]
+    }
+  ]
+}

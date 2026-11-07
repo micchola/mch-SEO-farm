@@ -1,0 +1,64 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-06 23:38",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "crm-pizzerie",
+      "status": "ok",
+      "seconds": 720.9,
+      "words": 958,
+      "chars": 7071,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-studi-dentistici",
+      "status": "ok",
+      "seconds": 839.0,
+      "words": 1143,
+      "chars": 7859,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "email-marketing-barbieri",
+      "status": "ok",
+      "seconds": 716.8,
+      "words": 966,
+      "chars": 7222,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "pos-bar",
+      "status": "ok",
+      "seconds": 769.8,
+      "words": 1083,
+      "chars": 7736,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-barbieri",
+      "status": "ok",
+      "seconds": 944.6,
+      "words": 1209,
+      "chars": 8862,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    }
+  ]
+}

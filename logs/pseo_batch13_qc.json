@@ -1,0 +1,64 @@
+{
+  "model": "qwen3:8b-q4_K_M",
+  "generated": "2026-11-08 19:22",
+  "ok": 5,
+  "fail": 0,
+  "overwrote": 0,
+  "articles": [
+    {
+      "slug": "booking-studi-legali",
+      "status": "ok",
+      "seconds": 900.2,
+      "words": 1078,
+      "chars": 7526,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "crm-idraulici",
+      "status": "ok",
+      "seconds": 1006.4,
+      "words": 1161,
+      "chars": 8403,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-fisioterapisti",
+      "status": "ok",
+      "seconds": 859.0,
+      "words": 1161,
+      "chars": 8173,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "fidelizzazione-concessionari-auto",
+      "status": "ok",
+      "seconds": 761.5,
+      "words": 993,
+      "chars": 7601,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    },
+    {
+      "slug": "email-marketing-studi-legali",
+      "status": "ok",
+      "seconds": 721.0,
+      "words": 933,
+      "chars": 7111,
+      "fatal": [],
+      "warns": [
+        "placeholder [LINK"
+      ]
+    }
+  ]
+}

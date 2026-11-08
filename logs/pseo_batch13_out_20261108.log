@@ -1,0 +1,19 @@
+🚀 Deep pSEO batch13 — qwen3:8b-q4_K_M — 9 candidati, genero finché non ne ho 5 OK
+   → booking-studi-legali
+   → crm-idraulici
+   → fidelizzazione-fisioterapisti
+   → fidelizzazione-concessionari-auto
+   → email-marketing-studi-legali
+   → email-marketing-fisioterapisti
+   → fidelizzazione-pizzerie
+   → fidelizzazione-studi-commerciali
+   → pos-pizzerie
+  [1/9] booking-studi-legali ✅ (900s, 1078 parole, 7,526 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [2/9] crm-idraulici ✅ (1006s, 1161 parole, 8,403 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [3/9] fidelizzazione-fisioterapisti ✅ (859s, 1161 parole, 8,173 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [4/9] fidelizzazione-concessionari-auto ✅ (762s, 993 parole, 7,601 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+  [5/9] email-marketing-studi-legali ✅ (721s, 933 parole, 7,111 chars) ℹ️ QC-warn: ['placeholder [LINK'] — sync su apps/
+
+📊 Deep pSEO batch13: 5 OK, 0 QC-fail, 0 overwrote (target 5)
+   → /home/impact/mch/seo-farm/content/settore (+ sync su /home/impact/mch/seo-farm/apps/seo-farm/content/settore)
+   → QC report: /home/impact/mch/seo-farm/logs/pseo_batch13_qc.json
